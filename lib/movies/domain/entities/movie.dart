@@ -9,13 +9,14 @@ class Movie extends Equatable {
   final List<int> genders;
   final int releaseDate;
 
-  const Movie(this.releaseDate, {
+  const Movie({
     required this.id,
     required this.title,
     required this.overview,
     required this.posterPath,
     required this.voteAverage,
     required this.genders,
+    required this.releaseDate,
   });
   
   @override
